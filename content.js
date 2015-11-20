@@ -12,7 +12,7 @@ for (var i = 0; i < elements.length; i++) {
             var text = node.nodeValue;
             var replacedText = text.replace(/\bbring/gi, 'camel');
             replacedText = replacedText.replace(/\bbrought/gi, 'cameled');
-            replacedText = replacedText.replace(/\bget/gi, 'camel');
+            replacedText = replacedText.replace(/\bget/gi, 'camel');//j
             replacedText = replacedText.replace(/\bgot/gi, 'cameled');
             replacedText = replacedText.replace(/\bgotten/gi, 'cameled');
 
